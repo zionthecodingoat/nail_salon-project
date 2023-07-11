@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin:0;
+    padding: 20px;
+
+}
+
+h1{
+    @apply text-center text-4xl my-2 text-red-600
+}
+h2{
+    @apply text-3xl text-red-600 my-2
+}
+
+h3{
+    @apply text-2xl text-red-700 mt-2
+}
+
+h4{
+    @apply text-xl text-[#f69564]
+}
+
+
+.logo{
+    width: 300px;
+}
+
+table{
+    @apply border border-red-500
+}
+
+tr{
+    @apply hover:bg-[#f69564] text-red-700
+}
+
+th{
+    @apply py-2 pr-16 pl-2 text-left
+}
+
+td{
+    @apply -translate-x-8
+}
+
+.disclosure-btn{
+    @apply bg-pink-300 rounded-xl p-2 w-full 
+}
+
+.active{
+    @apply text-[#f69564] rounded-xl
+}
+
