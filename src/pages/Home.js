@@ -13,17 +13,17 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div>
-      <div className='w-3/5 max-w-[980px] mx-auto '>
+      <div className='w-[90%] md:w-3/5 md:max-w-[980px] mx-auto '>
        <Hero />
       </div>
 
 
-      <div className='my-12 w-3/5 mx-auto'>
-        <h2 className='text-4xl text-red-800 my-4'>Make Every Visit Unforgettable</h2>
-        <p className='text-2xl'>Winn Nail Spa provides a fresh environment to have a relaxing experience and look your best. Everything except hair and makeup, our professional staff will help reinvent you.</p>
+      <div className='my-12 w-[90%] md:w-3/5 mx-auto'>
+        <h2 className='text-red-800 my-4'>Make Every Visit Unforgettable</h2>
+        <p>Winn Nail Spa provides a fresh environment to have a relaxing experience and look your best. Everything except hair and makeup, our professional staff will help reinvent you.</p>
       </div>
       
-      <div className='w-3/5 mx-auto flex flex-col lg:flex-row space-x-8 my-8'>
+      <div className='w-[90%] md:w-3/5 mx-auto flex flex-col lg:flex-row space-x-8 my-8'>
         <div>
           <Carousel1 />
         </div>
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-3/5 mx-auto flex flex-col lg:flex-row space-x-8 my-8'>
+      <div className='w-[90%] md:w-3/5 mx-auto flex flex-col lg:flex-row space-x-8 my-8'>
         <div>
           <Carousel1 />
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-3/5 mx-auto flex flex-col lg:flex-row space-x-8 my-8'>
+      <div className='w-[90%] md:w-3/5 mx-auto flex flex-col lg:flex-row space-x-8 my-8'>
         <div>
           <Carousel1 />
         </div>

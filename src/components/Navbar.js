@@ -13,7 +13,7 @@ export default function Navbar() {
             </Link>
           </div>
           <div className='lg:translate-y-3'>
-            <ul className='flex flex-row justify-between items-center space-x-12 font-semibold text-3xl text-red-700'>
+            <ul className='flex flex-row justify-between items-center space-x-4 sm:space-x-12 font-semibold text-xl sm:text-3xl text-red-700'>
               <li>
                 <NavLink className='link' to='/'>Home</NavLink>
               </li>

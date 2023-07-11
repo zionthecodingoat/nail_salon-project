@@ -21,7 +21,7 @@ export default function Services() {
       </div>
 
       {/* services types description */}
-      <div className='flex flex-row space-x-4 justify-around'>
+      <div className='flex flex-col md:flex-row md:space-x-4 md:justify-around'>
         <div className='flex flex-col space-y-8'>
           <div className='max-w-[600px]'>
             <h2>Regular Manicure: $20</h2>
@@ -50,7 +50,7 @@ export default function Services() {
 
 
 
-        <div className='flex flex-col space-y-8 '>
+        <div className='flex flex-col space-y-8 mt-8 md:mt-0 '>
           <div className='max-w-[600px]'>
               <h2>Regular Pedicure: $30</h2>
               <p>Pedicure includes nail trimming, shaping, buffing, cuticle grooming & conditioning. Lotion massage & color polish of your choice.</p>
